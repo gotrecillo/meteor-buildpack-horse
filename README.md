@@ -20,6 +20,12 @@ To use this with your meteor app and heroku:
 
         heroku config:set ROOT_URL=https://<yourapp>.herokuapp.com
 
+Optional step, if you are using a ```settings.json``` file to configure your Meteor application
+
+```
+% heroku config:add METEOR_SETTINGS="$(cat settings.json)"
+```
+
 Once that's done, you can deploy your app using this build pack any time by pushing to heroku:
 
     git push heroku master
