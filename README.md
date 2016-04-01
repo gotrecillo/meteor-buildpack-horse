@@ -1,4 +1,4 @@
-# Meteor Buildpack Horse
+# Meteor 1.3 Buildpack
 
 A heroku buildpack for Meteor v1.3+.
 
