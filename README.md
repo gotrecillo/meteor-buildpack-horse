@@ -1,9 +1,8 @@
 # Meteor Buildpack Horse
 
-A heroku buildpack for Meteor v0.9.3+ (including 1.0 and up), using meteor's
-native packaging system and designed to be as simple and readable as possible.
+A heroku buildpack for Meteor v1.3+.
 
-*NOTE: previous versious of this buildpack used Compose (aka MongoHQ) which no longer offers a free tier to heroku users. If you still need MongoHQ, use the [MongoHQ branch](https://github.com/AdmitHub/meteor-buildpack-horse/tree/mongohq).*
+*NOTE: previous versious of this buildpack used Compose (aka MongoHQ) which no longer offers a free tier to heroku users. If you still need MongoHQ, use the [MongoHQ branch](https://github.com/michaltakac/meteor-buildpack-horse/tree/mongohq).*
 
 To use this with your meteor app and heroku:
 
